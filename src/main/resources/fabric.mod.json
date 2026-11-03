@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "stunslam",
+  "version": "${version}",
+  "name": "Stun Slam",
+  "description": "Axt bricht den Schild, danach automatischer Mace-Smash. Nur fuer private Server.",
+  "authors": ["Jona"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.sharkus.stunslam.StunSlamMod"] },
+  "depends": { "fabricloader": ">=0.17.0", "minecraft": "*", "fabric-api": "*" }
+}
